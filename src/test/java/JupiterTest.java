@@ -8,7 +8,7 @@ public class JupiterTest {
     void testAdd() {
         Calculator calc = new Calculator();
         if (calc.add(1, 5) != 6) {
-            fail("Not yet implemented");
+            fail("Fix the add method.");
         }
     }
 
@@ -16,7 +16,7 @@ public class JupiterTest {
     void testSubtract() {
         Calculator calc = new Calculator();
         if (calc.subtract(7, 5) != 2) {
-            fail("Not yet implemented");
+            fail("Fix the subtract method.");
         }
     }
 
@@ -24,7 +24,7 @@ public class JupiterTest {
     void testMultiply() {
         Calculator calc = new Calculator();
         if (calc.multiply(5, 5) != 25) {
-            fail("Not yet implemented");
+            fail("Fix the multiply method.");
         }
     }
 
@@ -32,7 +32,7 @@ public class JupiterTest {
     void testDivide() {
         Calculator calc = new Calculator();
         if (calc.divide(10, 5) != 2) {
-            fail("Not yet implemented");
+            fail("Fix the divide method.");
         }
     }
 }
